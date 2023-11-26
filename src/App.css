@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.main-header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.create-form label {
+  color: white !important;
+}
