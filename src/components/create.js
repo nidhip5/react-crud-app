@@ -36,12 +36,6 @@ const Create = () => {
             onChange={(e) => setLastName(e.target.value)}
           />
         </Form.Field>
-        <Form.Field>
-          <Checkbox
-            label="I agree to the Terms and Conditions"
-            onChange={(e) => setCheckbox(!checkbox)}
-          />
-        </Form.Field>
         <Button onClick={postData} type="submit">
           Submit
         </Button>
